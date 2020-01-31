@@ -1,0 +1,101 @@
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important ;
+    padding-right: 1rem !important;
+
+}
+.navbar .nav-item.active{
+    border-left: #444 3px solid;
+}
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background: url("../img/image1.jpg");
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url("../img/image2.jpg");
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url("../img/image3.jpg");
+    background-size: cover;
+}
+.ready{
+    position: relative;
+    background: url('../img/lights.jpg');
+    height: 200px;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.media{
+    position: relative;
+    background: url('../img/media.jpg');
+    height: 170px;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.media a{
+    color: white;
+}
+.overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+
+#page-header {
+    position: relative;
+    background: url('../img/image1.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    background-position: 0 -90px;
+}
+#img{
+    margin-top: -50px;
+}
+
+#list{
+    text-decoration: none;
+}
+#faq{
+    border:#444
+}
+#faq a{
+    color: white;
+    text-decoration: none;
+}
+#faq .card, #faq .card-body{
+    background: #444;
+}
+#faq{
+    background:black;
+}
+
